@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/dachyut/dockerdemo'
+                //git 'https://github.com/dachyut/dockerdemo'
                 sh 'echo myCustVar = myCustEnvVar'
             }
         }
